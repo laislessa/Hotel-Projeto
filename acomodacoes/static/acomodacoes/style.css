@@ -1,0 +1,15 @@
+body{
+    background:rgb(255, 255, 255);
+    font-size: large;
+    font-family: Cambria;
+}
+
+nav-info{
+    background: rgb(252, 194, 194);
+}
+
+header{
+    margin: auto;
+    white-space: normal;
+
+}

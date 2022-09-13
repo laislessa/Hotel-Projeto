@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}
+<div class="capa-imagem">
+    <img src="{% static 'detalhe/images/foto3.jpg'%}" class="d-block w-100" width="500" height="600" />
+</div>
+<!-- Menu Lateral -->
+<div class="container">
+    <div class="row mb-5">
+        <div class="col-md-2">
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                    <a class="nav-link nav-header" aria-current="page" href="#">Acomodações</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="http://127.0.0.1:8000/detalhe/1/">Chalés</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Apartamentos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Restaurante</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Depoimentos</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-md-10">
+            <h2>Chalés</h2>
+            <p class="lead">Chalés com 35 metros², equipados com televisão, ar-condicionado, frigobar. Vista
+                para o mar. </p>
+            <div class="container text-center">
+                <div class="row align-items-start">
+                    <div class="col">
+                        <img class="rounded float-left"
+                            src="https://t-cf.bstatic.com/xdata/images/hotel/max1024x768/270011752.jpg?k=76e293cc5a20c3ea853511b62e7b8a92bf6d1fbab26ad0a84885ce1da53fce61&o=&hp=1"
+                            alt="...">
+                    </div>
+                    <div class="col">
+                        <img class="rounded float-right"
+                            src="https://t-cf.bstatic.com/xdata/images/hotel/max1024x768/270012307.jpg?k=cba6197f0d59de62f7ee67821feb367448fd747a6d65c6e81ca320d8457ba15f&o=&hp=1"
+                            alt="... ">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock%}

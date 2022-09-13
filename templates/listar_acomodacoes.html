@@ -1,0 +1,99 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<div class="capa-imagem">
+    <img src="{% static 'acomodacoes/images/foto3.jpg'%}" class="d-block w-100" width="500" height="600" />
+</div>
+<!-- Menu Lateral -->
+<div class="container">
+    <div class="row mb-5">
+        <div class="col-md-2">
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                    <a class="nav-link nav-header" aria-current="page" href="#">Acomodações</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="http://127.0.0.1:8000/detalhe/1/">Chalés</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Apartamentos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Restaurante</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Depoimentos</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-md-10">
+            <h2>Faça sua reserva</h2>
+            <div class="row" style="min-width:fit-content ;">
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="{% static 'acomodacoes/images/chalequad.jpeg'%}" class="card-img-top"
+                            alt="card-img-cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Chalé Duplo</h5>
+                            <div class="text-center">
+                                <p class="card-text">Chalé com 1 cama de casal. Conta com um frigobar, uma tv e
+                                    um ar-condicionado.</p>
+                                <div class="text-center">
+                                    <p class="text-money">Diária R$ 300,00</p>
+                                    <a href="#" class="btn btn-primary">Reservar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="{% static 'acomodacoes/images/chaleduplo.jpeg'%}" class="card-img-top"
+                            alt="card-img-cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Chalé Quadruplo</h5>
+                            <div class="text-center">
+                                <p class="card-text">Chalé com 3 camas de solteiro. Conta com um frigobar, tv e
+                                    ar-condicionado. </p>
+                                <div class="text-center">
+                                    <p class="text-money">Diária R$ 400,00</p>
+                                    <a href="#" class="btn btn-primary">Reservar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="{% static 'acomodacoes/images/apt3.jpg'%}" class="card-img-top" alt="card-img-cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Apartamento Single</h5>
+                            <p class="card-text">Apartamento com 1 cama. Conta com um frigobar, uma tv e um
+                                ar-condicionado.</p>
+                            <div class="text-center">
+                                <p class="text-money">Diária R$ 100,00</p>
+                                <a href="#" class="btn btn-primary">Reservar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="{% static 'acomodacoes/images/aptduplo.jpeg'%}" class="card-img-cap"
+                            alt="card-img-cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Apartamento Triplo</h5>
+                            <p class="card-text">Apartamento com 3 camas. Conta com um frigobar, uma tv e um
+                                ar-condicionado.</p>
+                            <div class="text-center">
+                                <p class="text-money">Diária R$ 300,00</p>
+                                <a href="#" class="btn btn-primary">Reservar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Menu Lateral -->
+    {%endblock %}
